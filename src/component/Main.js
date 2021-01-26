@@ -156,6 +156,8 @@ const Main = () => {
                     required></input>
                 </div>
 
+                <p className="guide">Select template :</p>
+
                 <input type="file" accept=".pdf" onChange={(e) => selectTemplate(e)}></input>
                 <div className="submit-btn">
                     <button onClick={() => createPDF()}>

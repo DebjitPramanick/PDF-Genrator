@@ -27,6 +27,13 @@
     padding: 10px;
 }
 
+.guide{
+    color: grey;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+
 input, textarea{
     border: 0;
     outline: 0;
