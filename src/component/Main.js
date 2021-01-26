@@ -93,7 +93,7 @@ const Main = () => {
 
     const downloadPDF = () => {
         const dataURI = file;
-        saveAs(dataURI, "test.pdf");
+        saveAs(dataURI, `${fileName}.pdf`);
     }
 
 
@@ -128,7 +128,7 @@ const Main = () => {
                 </div>
 
                 <div className="input-box">
-                    <input placeholder="Enter organozation name" value={org}
+                    <input placeholder="Enter organization name" value={org}
                     onChange={(e) => setOrg(e.target.value)}
                     required></input>
                 </div>

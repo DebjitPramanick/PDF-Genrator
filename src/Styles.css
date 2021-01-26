@@ -32,6 +32,7 @@ input, textarea{
     outline: 0;
     width: 100%;
     font-size: 16px;
+    text-transform: capitalize;
 }
 
 .submit-btn{
@@ -75,9 +76,12 @@ input, textarea{
     padding: 40px;
 }
 
-.preview-container iframe{
-    width: 1400px;
-    height: 800px
+.react-pdf__Document{
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .download-sec{
@@ -94,5 +98,16 @@ input, textarea{
     flex-basis: 40%;
 }
 
+
+
+@media (max-width: 1000px){
+    .container{
+        flex-direction: column;
+    }
+
+    .preview-container{
+        margin-top: 40px;
+    }
+}
 
 
