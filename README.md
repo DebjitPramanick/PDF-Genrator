@@ -31,4 +31,5 @@ I have created it with **React JS** in frontend.
 <br>
 <br>
 <br>
-### Check template folder to download the sample template.
+
+## Check template folder to download the sample template.
